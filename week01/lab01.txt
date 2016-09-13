@@ -18,4 +18,8 @@ drwxr-xr-x  2 andhita.nurul StafCS 4096 Sep 11 19:25 week08
 drwxr-xr-x  2 andhita.nurul StafCS 4096 Sep 11 19:25 week09
 drwxr-xr-x  2 andhita.nurul StafCS 4096 Sep 11 19:26 week10
 /home/fasilkom/mahasiswa/a/andhita.nurul/os162/week01
+<<<<<<< HEAD
 Today is 13 Sep 2016 at 18:20:35
+=======
+
+>>>>>>> 618f5639bbdd91391ff254292e8e9bc8d15cd983
