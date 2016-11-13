@@ -1,0 +1,14 @@
+#! /bin/bash
+mv scan2016-00001.jpg ape-2016-11-14-small-01.jpg
+mv scan2016-00005.jpg ape-2016-11-14-small-02.jpg
+mv scan2016-00007.png ape-2016-11-14-small-03.png
+mv scan2016-00010.jpg ape-2016-11-14-small-04.jpg
+mv scan2016-00011.jpg ape-2016-11-14-small-05.jpg
+mv scan2016-00013.gif ape-2016-11-14-small-06.gif
+mv scan2016-00014.jpg ape-2016-11-14-small-07.jpg
+mv scan2016-00016.jpg ape-2016-11-14-small-08.jpg
+mv scan2016-00017.jpg ape-2016-11-14-small-09.jpg
+mv scan2016-00018.gif ape-2016-11-14-small-10.gif
+mv scan2016-00019.jpg ape-2016-11-14-small-11.jpg
+mv scan2016-00019.png ape-2016-11-14-small-12.png
+mv scan2016-00020.jpg ape-2016-11-14-small-13.jpg

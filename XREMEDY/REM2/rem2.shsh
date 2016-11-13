@@ -1,0 +1,18 @@
+#! /bin/bash
+NUM=$((10#0))
+echo "#! /bin/bash" > .output
+DATE=`date +%Y-%m-%d`
+ALLFILES=`ls`
+for file in $ALLFILES
+do
+  fileArr[$NUM]=$file
+  ext[$NUM]=${file:15}
+  let "NUM+=1"
+done
+
+INDEX=0
+for i in `seq -w 1 $NUM`
+do
+  echo "mv ${fileArr[$INDEX]} ape-$DATE-small-$i.${ext[$INDEX]}" >> .output
+  let "INDEX+=1"
+done
