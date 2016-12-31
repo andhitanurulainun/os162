@@ -1,3 +1,4 @@
+Sat Dec 31 20:12:00 WIB 2016 push REV01 ambil2.sh
 Sat Dec 31 13:53:00 WIB 2016 push REV00 ambil2.sh
 Thu Dec 29 22:27:00 WIB 2016 push ranking.txt and ambil.sh
 Tue Dec 27 16:30:10 WIB 2016 push folder XREMEDY2 
