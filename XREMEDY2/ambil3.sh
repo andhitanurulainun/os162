@@ -1,6 +1,8 @@
 #!/bin/bash
 # (c) 2016 Andhita Nurul Ainun -- This is free software
 # START Tue Jan 03 21:34:00 WIB 2016
+# REV01 Wed Jan 04 02:10:00 WIB 2017
+# REV02 Web Jan 04 04:12:00 WIB 2017
 # kode ini pertama kali untuk memisahkan "AA. [UB-CC]" dan mengubahnya menjadi "U B CC AA" menggunakan grep dan awk kemudian hasilnya disimpan ke XHASIL.txt
 # berkas XHASIL.txt disortir menggunakan sort dengan sortir mulai dari kolom 2(B), 3(CC) sampai kolom 4(AA) kemudian hasilnya masuk kedalam YHASIL.txt
 # berkas dalam YHASIL.txt dicek tiap baris kemudian dilakukan grep dengan baris pada temp.txt. Hasil grep diambil kolom ke 4 dan disimpan ke temp2.txt yang kemudian diubah ke bentuk kolom menggunakan sed lalu disimpan dalam temp3.txt. Berkas temp3 menggunakan awk untuk append baris yang sedang di loop dengan hasil temp2.txt sebelumnya. Hasilnya kemudian dimasukkan ke ZHASIL.txt 
