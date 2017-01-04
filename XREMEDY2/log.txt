@@ -1,4 +1,6 @@
-Wed Jan 04 06:40:00 WIB 2016 push ambil3.sh
+Wed Jan 04 11:17:00 WIB 2017 push REV02 ambil3.sh
+Wed Jan 04 10:34:00 WIB 2017 push REV01 ambil3.sh
+Wed Jan 04 06:40:00 WIB 2017 push ambil3.sh
 Sat Dec 31 20:56:00 WIB 2016 push REV02 ambil2.sh
 Sat Dec 31 20:12:00 WIB 2016 push REV01 ambil2.sh
 Sat Dec 31 13:53:00 WIB 2016 push REV00 ambil2.sh
