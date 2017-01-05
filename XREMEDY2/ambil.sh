@@ -14,4 +14,4 @@ sed '/NNNN/,+0 d' z1 > z2
 sed 's/\[//' z2 > z3
 sed 's/\]//' z3 > ranking.txt 
 
-
+rm x y z z1 z2 z3

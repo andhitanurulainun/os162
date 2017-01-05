@@ -1,3 +1,4 @@
+Thu Jan 05 17:27:00 WIB 2017 push REV02 ambil.sh
 Thu Jan 05 15:35:17 WIB 2017 push REV03 ambil3.sh
 Wed Jan 04 11:17:00 WIB 2017 push REV02 ambil3.sh
 Wed Jan 04 10:34:00 WIB 2017 push REV01 ambil3.sh
