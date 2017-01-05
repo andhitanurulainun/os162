@@ -9,9 +9,9 @@
 
 
 
-cat RK-*.txt | grep http | awk -F "." '{print $1 " " $2}'| awk -F "]" '{print $1}' | grep "-" | awk -F "[" '{print $1$2}' | awk -F "-" '{print $1 " " $2}' | awk -F "U" '{print $1$2}' | awk -F " " '{print $2 " " $3 " " $1}' | awk '{ if ($1 ~ /^[0-9 ]*$/) print }' | awk '{print "U " $0}' > XHASIL.txt
-
+cat RK-*.txt | grep http | awk -F "." '{print $1 " " $2}' | awk -F "]" '{print $1}' | grep "-" | awk -F "[" '{print $1$2}' | awk -F "-" '{print $1 " " $2}' | awk -F "U" '{print $1$2}' | awk -F " " '{print $2 " " $3 " " $1}' | awk '{ if ($1 ~ /^[0-9 ]*$/) print }' | awk -F " " '{if(length($3)==1) print $1 " " $2 " 0" $3; else print $0 ;}'  | awk '{print "U " $0}' > XHASIL.txt
 cat XHASIL.txt | sort -k2,4 > YHASIL.txt
+
 
 cat YHASIL.txt | sort -u -k1,3 | awk -F " " '{print $1 " " $2 " " $3}' > temp.txt
 
@@ -22,4 +22,8 @@ do
    sed -n '1h;1!H;${g;s/\n/ /g;p}' temp2.txt > temp3.txt
    awk -v prefix="$line" '{print prefix " " $0}' temp3.txt >> ZHASIL.txt
 done < temp.txt
+
+rm temp.txt temp2.txt temp3.txt
+
+
 
